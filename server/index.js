@@ -15,7 +15,6 @@ app.get('/', (req,res)=> {
     res.send("Hello World");
 });
 
-
 app.listen(port, ()=>{ 
     console.log("Server is listening now on port " + port);
 });
